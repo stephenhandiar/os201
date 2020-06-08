@@ -19,6 +19,6 @@
 * Go here: [Urls About Operating Systems](URLs/)
 
 
-Thank You
---Stephen Handiar Christian - 1806205703 - OS201 B
+Thank You\
+--Stephen Handiar Christian - 1806205703 - OS201 B\
 [Open GitHub Repositories](https://github.com/stephenhandiar/os201/tree/master)
