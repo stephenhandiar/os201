@@ -1,0 +1,34 @@
+Script started on Mon 08 Jun 2020 08:42:22 PM WIB
+stephen.handiar@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+stephenhandiar
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}                                   /> ";
+$ eval $PSTAMP
+200608-204303-0dea-UAS/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-204316-e09c-UAS/> echo -e $CEKSAYA
+stephenhandiar ZCZCSCRIPTSTART 200601-113232 stephenhandiar
+stephenhandiar stephenhandiar 200601-113329-7a26-stephen.handiar/ 200601-113329 SEQOK SUMOK 7a261158
+stephenhandiar stephenhandiar 200601-113340-82ee-stephen.handiar/ 200601-113340 SEQOK SUMOK 82ee089b
+stephenhandiar stephenhandiar 200601-113347-6ca0-stephen.handiar/ 200601-113347 SEQOK SUMOK 6ca0ff98
+stephenhandiar stephenhandiar 200601-113441-b7f5-stephen.handiar/ 200601-113441 SEQOK SUMOK b7f57435
+stephenhandiar ZCZCSCRIPTSTOP 200601-113452 SEQOK
+200608-204329-2f74-UAS/> echo -e $CEKSEBELA1
+stephenhandiar ZCZCSCRIPTSTART 200606-140538 SulthanZahran
+stephenhandiar SulthanZahran 200606-140613-befa-sulthan.zahran/ 200606-140613 SEQOK SUMOK befa6b15
+stephenhandiar SulthanZahran 200606-140621-3ce3-sulthan.zahran/ 200606-140621 SEQOK SUMOK 3ce3cf68
+stephenhandiar SulthanZahran 200606-140635-0aaa-sulthan.zahran/ 200606-140635 SEQOK SUMOK 0aaa4a7b
+stephenhandiar SulthanZahran 200606-140643-d0af-sulthan.zahran/ 200606-140643 SEQOK SUMOK d0af60c5
+stephenhandiar SulthanZahran 200604-140643 SEQOK
+200608-204336-90cf-UAS/> echo -e $CEKSEBELA2
+stephenhandiar ZCZCSCRIPTSTART ERROR syannelimarwan
+stephenhandiar syannelimarwan 200601-143039-5915-syanne.limarwan/ 200601-143039 SEQOK SUMOK 5915ca03
+stephenhandiar syannelimarwan 200601-143044-7e17-syanne.limarwan/ 200601-143044 SEQOK SUMOK 7e17c3aa
+stephenhandiar syannelimarwan 200601-143154-867a-syanne.limarwan/ 200601-143154 SEQOK SUMOK 867aaed1
+stephenhandiar syannelimarwan 200601-143207-9db3-syanne.limarwan/ 200601-143207 SEQOK SUMOK 9db37ff1
+stephenhandiar syannelimarwan ERROR
+200608-204342-867c-UAS/> exit
+exit
+
+Script done on Mon 08 Jun 2020 08:43:49 PM WIB
